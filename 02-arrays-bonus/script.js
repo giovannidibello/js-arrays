@@ -34,5 +34,5 @@ console.log("Fabio è presente?", isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 
-const teachersString = teachers.toLocaleString();
+const teachersString = teachers.join();
 console.log(teachersString);
