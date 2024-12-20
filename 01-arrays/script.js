@@ -50,10 +50,4 @@ console.log(lewisIndex, teachers);
 // e salva il risultato nella variabile isTeachersEmpty
 
 const isTeachersEmpty = (teachers.length === 0);
-
-if (isTeachersEmpty) {  
-  console.log(isTeachersEmpty, "L'array è vuoto");
-  
-} else {  
-  console.log(isTeachersEmpty , "L'array non è vuoto");
-}
+console.log(isTeachersEmpty);
